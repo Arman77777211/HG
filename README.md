@@ -1,6 +1,6 @@
 html, body {
   
-    background-color:green; /* այստեղ ավելացրու կամ մեկ գույն, որ ուզում ես */
+    background-color:green; /* այստեղ ավելացրու կամ մեկ գույն,*/
  
   }
   
