@@ -1,145 +1,136 @@
-html, body {
-  
-    background-color:green; /* այստեղ ավելացրու կամ մեկ գույն,*/
- 
-  }
-  
-
-  html, body {
-    background-color: green; /* Վերջնական գույնը */
-}
-
-h1 {
+h1{ 
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
     background-color: aliceblue;
+       
+   }
+
+
+
+   .ind{
+    background: url(https://conteshop.by/ru/media/catalog/product/cache/11/image/1405x1879/602f0fa2c1f0d1ba5e241f914e856ff9/3/0/3025069eaf7e2d58ee86134c813f827a.jpg?v=11);
+    width: 300px;
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin: 50px;
+    border: 2px solid;
+    
+}
+.inde{
+    background: url(https://ae01.alicdn.com/kf/H344967d57fca4eb3b8d252e0f00ffa2eV.jpg);
+    width: 300px;
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:0%;
+    border: 2px solid;
+    margin: 50px;
+    position: absolute;
+    
+}
+.inu{
+    background: url(https://zutano.com/cdn/shop/products/zutano-bottom-solid-short-black-7583643566138.jpg?v=1552057770&width=1080);
+
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    background-size: contain;
+    border: 2px solid;
+    bottom: 790px;
+    position: relative;
+    margin-right: 20px;
+   
 }
 
-h1:hover {
-    color: saddlebrown;
-    background-color: aliceblue;
+.wip{
+    background: url(https://www.tradiesworkwearshop.com.au/cdn/shop/products/EWD206-NAVY-1_1800x.jpg?v=1579225195);
+    width: 300px;
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    border: 2px solid;
+
+    position: relative;
+   
+    
+    
+    
+    
+}
+.wip:hover{
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+.inu:hover{
+    transition:1s ;
+    transform: scale(1.1);
+}
+
+
+.inde:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.ind:hover{
+    transition: 1s;
+    transform:scale(1.1);
+}
+
+   
+h1:hover{
     transition: 2s;
-}
-
-button {
-    margin-top: 20px;
-    padding: 10px 20px;
-    background-color: lightblue;
-    border: none;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: darkblue;
-    color: white;
-}
-
-
-
-
-
-p{
-    font-size: 16px;
-    font-style: italic;
-    font-weight: bold;
-  
-}
-
-
-optgroup>option:nth-child(3){
-    color: blue;
-}
-optgroup>option:nth-child(4){
-    color:darkgreen;
-}
-optgroup>option:nth-child(1){
-    color: rgb(241, 173, 1);
-}
-optgroup>option:nth-child(2){
-    color: darkorange;
-
-}
-optgroup>option:nth-child(5){
-    color:cornflowerblue;
-}
-
-optgroup>option:nth-child(6){
-    color: rgb(8, 8, 110);
-}
-optgroup>option:nth-child(7){
-    color: red;
-}
-
-h3{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
     
-
-}
-h3:hover{
-    transform: scale(1.2);
-    transition: 1s;
-}
-.somediv{
-    background: url(https://e3.365dm.com/24/10/2048x1152/skynews-hacking-cyber-attack_6719600.jpg);
-    width: 600px;
-    height: 600px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    border-radius: 20px;
-    margin: 100px auto 0;
-    
+    transform: scale(1.1);
 }
 
-.ike{
-    background: url(https://www.usatoday.com/gcdn/authoring/authoring-images/2024/11/06/USAT/76091834007-usatsi-3542906.jpg?crop=1164,655,x0,y49&width=660&height=371&format=pjpg&auto=webp);
-    width: 600px;
-    height: 600px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin: 100px auto 0;
-    border-radius: 30px;
-}
-
-
-.sup1{
-    font-style: italic;
-    font-size: 20px;
-    font-weight: bold;
-
-}
-
-
-.sup{
+ol:last-of-type li:last-child {
+   font-size: 22px;
+    font-weight: bolder;
     font-family: sans-serif;
-    font-size: initial;
-    font-weight: bold;
+    position: absolute;
+    right: 300px;
+    bottom: 0;
+    top: 560px;
 
-}
-h2{
-    margin-top:150px;
-    text-align: center;
-}
-h2:hover{
-    transition: 1s;
-    color: darkslategrey;
-    transform: scale(1.1);
-}
-h3{
-    margin-top: 150px;
-    text-align: center;
-}
-h3:hover{
-    transition: 1s;
-    color: darkblue;
+  
+  }
 
-}
-.ike:hover{
-    transition: 1s;
-    transform: scale(1.1);
+  ol:nth-of-type(3) li:nth-child(1){
+    position: absolute;
+    font-family: sans-serif;
+    right: 300px;
+    top: 120px;
+    font-size: 22px;
+    font-weight: bolder;
+        
 
-}
+
+    
+  }
+  ol:nth-of-type(1) li:nth-child(1){
+
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    position: absolute;
+    left: 100px;
+     
+  }
+
+
+
+  ol:nth-of-type(2) li:nth-child(1){
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: bolder;
+    
+    
+  }
+
+
